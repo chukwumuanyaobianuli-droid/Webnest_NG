@@ -147,3 +147,23 @@ footer { text-align: center; padding: 30px 22px 44px; font-size: 13px; color: va
 @media (prefers-reduced-motion: reduce) {
   .blob, .grad, .float { animation: none; }
 }
+
+/* Featured premium demos */
+.card.featured {
+  background: linear-gradient(180deg, #fff 0%, #fff8ef 100%);
+  border-color: var(--yellow);
+  position: relative;
+}
+.card.featured::after {
+  content: "★ Premium";
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  color: #1a1625;
+  background: var(--yellow);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
