@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Obianuli Chimuanya Silvah — Frontend Developer</title>
+  <meta name="description" content="Frontend developer and founder of Webnest NG. I build fast, mobile-first websites for Nigerian businesses.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a class="brand" href="#top">
+      <img src="assets/logo.png" alt="Webnest NG logo">
+      <span>Obianuli Silvah</span>
+    </a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Hire me</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="kicker">Frontend Developer · Founder, Webnest NG</p>
+          <h1>Websites that make <span class="grad">small businesses</span> look bigger.</h1>
+          <p class="lead">I build fast, mobile-first websites for restaurants, churches, communities and growing businesses across Nigeria. Live in days, not months.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="https://wa.me/2348074878386" target="_blank" rel="noopener">WhatsApp me</a>
+            <a class="btn ghost" href="#work">See my work</a>
+          </div>
+          <ul class="stats">
+            <li><strong>8</strong><span>projects live</span></li>
+            <li><strong>5–7</strong><span>days delivery</span></li>
+            <li><strong>100%</strong><span>mobile-first</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+            <g transform="rotate(-4 200 160)">
+              <rect x="40" y="46" width="320" height="220" rx="14" fill="#fff" stroke="#e8e2d6" stroke-width="2"/>
+              <rect x="40" y="46" width="320" height="34" rx="14" fill="#f3ecdf"/>
+              <rect x="40" y="66" width="320" height="14" fill="#f3ecdf"/>
+              <circle cx="58" cy="63" r="5" fill="#ff5630"/>
+              <circle cx="76" cy="63" r="5" fill="#ffc93c"/>
+              <circle cx="94" cy="63" r="5" fill="#4f3ff0"/>
+              <rect x="60" y="96" width="240" height="70" rx="8" fill="#4f3ff0"/>
+              <rect x="76" y="112" width="120" height="10" rx="5" fill="#fff" opacity=".85"/>
+              <rect x="76" y="130" width="90" height="8" rx="4" fill="#fff" opacity=".6"/>
+              <rect x="76" y="146" width="60" height="14" rx="7" fill="#ff5630"/>
+              <rect x="60" y="182" width="130" height="10" rx="5" fill="#e8e2d6"/>
+              <rect x="60" y="200" width="200" height="8" rx="4" fill="#e8e2d6"/>
+              <rect x="60" y="216" width="160" height="8" rx="4" fill="#e8e2d6"/>
+              <circle cx="300" cy="200" r="26" fill="#ffc93c" opacity=".9"/>
+            </g>
+            <g class="float" transform="translate(292,34) rotate(6)">
+              <rect width="86" height="58" rx="14" fill="#ff5630"/>
+              <path d="M14 58v16l18-16z" fill="#ff5630"/>
+              <rect x="14" y="16" width="48" height="7" rx="3.5" fill="#fff" opacity=".9"/>
+              <rect x="14" y="30" width="34" height="7" rx="3.5" fill="#fff" opacity=".7"/>
+            </g>
+            <g class="float slow" transform="translate(28,220)">
+              <path d="M20 0C31 0 40 9 40 20 40 34 20 52 20 52S0 34 0 20C0 9 9 0 20 0Z" fill="#4f3ff0"/>
+              <circle cx="20" cy="20" r="8" fill="#fff"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <p class="label">Selected work</p>
+      <h2>Real client projects and demo builds</h2>
+
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="client">Real clients</button>
+        <button class="chip" data-filter="demo">Demos</button>
+      </div>
+
+      <div class="grid">
+
+        <a class="card" data-type="client" href="https://izuucooling.com.ng/" target="_blank" rel="noopener">
+          <span class="tag">Real client · Cooling &amp; AC</span>
+          <h3>Izuu Cooling Nig. Ltd.</h3>
+          <p>Live business website for an auto AC and refrigeration company in Awka, with services, real project photos and a direct WhatsApp inquiry button.</p>
+          <span class="go">Visit site →</span>
+        </a>
+
+        <a class="card" data-type="client" href="https://crypto-investment-dashboard.onrender.com" target="_blank" rel="noopener">
+          <span class="tag">Real client · Fintech</span>
+          <h3>Crypto Investment Dashboard</h3>
+          <p>Dashboard interface for a client's crypto portfolio and investment tracking tool.</p>
+          <span class="go">Visit site →</span>
+        </a>
+
+        <a class="card" data-type="demo" href="https://restaurant-demo-6.netlify.app" target="_blank" rel="noopener">
+          <span class="tag">Restaurant demo</span>
+          <h3>Naija Feast</h3>
+          <p>Nigerian restaurant site with a live menu, cart, order form and customer reviews. Built to show restaurant owners what their site could be.</p>
+          <span class="go">Visit site →</span>
+        </a>
+
+        <a class="card" data-type="demo" href="https://moon-republic-nu.vercel.app" target="_blank" rel="noopener">
+          <span class="tag">Education community</span>
+          <h3>Moon Republic</h3>
+          <p>Landing page for a Nigerian skills-learning community with course tracks, growth stats and a WhatsApp sign-up flow.</p>
+          <span class="go">Visit site →</span>
+        </a>
+
+        <a class="card" data-type="demo" href="https://taupe-starlight-67500e.netlify.app" target="_blank" rel="noopener">
+          <span class="tag">Nonprofit</span>
+          <h3>Safe Haven Orphanage</h3>
+          <p>Website for a children's orphanage with mission storytelling, a photo gallery and a donation-focused contact section.</p>
+          <span class="go">Visit site →</span>
+        </a>
+
+        <a class="card" data-type="demo" href="https://church-demo-1.netlify.app" target="_blank" rel="noopener">
+          <span class="tag">Faith community</span>
+          <h3>Grace Community Church</h3>
+          <p>Church website with service times, ministries overview and a warm, welcoming community section.</p>
+          <span class="go">Visit site →</span>
+        </a>
+
+        <a class="card" data-type="demo" href="https://sivah-business.netlify.app" target="_blank" rel="noopener">
+          <span class="tag">Consulting agency</span>
+          <h3>Northstar Advisory</h3>
+          <p>Business consulting landing page with a services breakdown, growth metrics and client testimonials.</p>
+          <span class="go">Visit site →</span>
+        </a>
+
+        <a class="card" data-type="demo" href="https://silvah-core.netlify.app/index.html?ref=SILVAH" target="_blank" rel="noopener">
+          <span class="tag">Practice build</span>
+          <h3>Silvah Core (UI practice)</h3>
+          <p>Front-end practice piece exploring a sign-up flow with referral-code handling. Not a live business, built to sharpen form and UX skills.</p>
+          <span class="go">Visit site →</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section band">
+      <p class="label">About</p>
+      <h2>Practical, fast, and built for real clients</h2>
+      <p class="about-text">I'm a Software Engineering student at the University of Calabar (300L) and the founder of Webnest NG. I turn a business's offline presence into something people can find, trust and act on: a clear menu, a booking button, a story worth reading.</p>
+      <ul class="skills">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li><li>Responsive design</li><li>Git &amp; GitHub</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <p class="label">Get in touch</p>
+      <h2>Have a project? Let's talk.</h2>
+      <div class="channels">
+        <a class="channel" href="https://wa.me/2348074878386" target="_blank" rel="noopener">
+          <span><small>WhatsApp</small>0807 487 8386</span><i>→</i>
+        </a>
+        <a class="channel" href="https://wa.me/2349128531086" target="_blank" rel="noopener">
+          <span><small>WhatsApp</small>0912 853 1086</span><i>→</i>
+        </a>
+        <a class="channel" href="mailto:chukwumuanyaobianuli@gmail.com">
+          <span><small>Email</small>chukwumuanyaobianuli@gmail.com</span><i>→</i>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Obianuli Chimuanya Silvah · Webnest NG · Calabar, Nigeria</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
